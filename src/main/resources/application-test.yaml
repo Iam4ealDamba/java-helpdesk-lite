@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: java-helpdesk-lite
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: h2
+  datasource:
+    url: jdbc:h2:mem:helpdesklite-test;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+jwt:
+  secret: Qg7EFvpJxoJBuhxr00NSn++WJBzhFKcrrr3TfgMZTzU=
+  expiration: 3600000

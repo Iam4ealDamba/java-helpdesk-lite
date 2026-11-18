@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    org.springframework.security: TRACE
+    org.springframework.security.web.FilterChainProxy: TRACE
+    org.springframework.security.authorization: TRACE

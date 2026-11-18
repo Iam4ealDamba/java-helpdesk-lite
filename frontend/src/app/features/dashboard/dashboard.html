@@ -1,0 +1,157 @@
+<main class="w-full bg-(--color-background) p-4">
+  <section class="w-full h-full bg-(--color-surface)">
+    <header aria-label="main-header" class="border-b border-(--text-primary)/30 p-4">
+      <div aria-label="title">
+        <h1>{{ title }}</h1>
+      </div>
+    </header>
+    <section class="p-4 space-y-6">
+      <div aria-label="activity" class="space-y-4">
+        <div class="flex items-center gap-x-4">
+          <div aria-label="icon" class="inline-flex border p-2 rounded-full">
+            <ng-icon name="lucideActivity" />
+          </div>
+          <div aria-label="activity-header">
+            <b>Activités</b>
+            <p class="text-sm">Surveiller l'activité des utilisateurs pour aspect informatif.</p>
+          </div>
+        </div>
+        <ul aria-label="activity-list" class="flex justify-between gap-x-4">
+          <li aria-label="bloc" class="w-full max-w-82 rounded-xl border p-4 items-center">
+            <div aria-label="top" class="flex gap-x-2">
+              <b class="text-xl">46</b>
+              <div aria-label="tag"
+                class="flex items-center rounded-lg border px-2 text-(--color-success) bg-(--color-success)/10">
+                <ng-icon name="lucideArrowUp" size="14" />
+                <b class="text-sm">12%</b>
+              </div>
+            </div>
+            <div aria-label="bottom">
+              <p>Totals tickets</p>
+            </div>
+          </li>
+          <li aria-label="bloc" class="w-full max-w-82 rounded-xl border p-4 items-center">
+            <div aria-label="top" class="flex gap-x-2">
+              <b class="text-xl">46</b>
+              <div aria-label="tag"
+                class="flex items-center rounded-lg border px-2 text-(--color-success) bg-(--color-success)/10">
+                <ng-icon name="lucideArrowUp" size="14" />
+                <b class="text-sm">12%</b>
+              </div>
+            </div>
+            <div aria-label="bottom">
+              <p>En attentes</p>
+            </div>
+          </li>
+          <li aria-label="bloc" class="w-full max-w-82 rounded-xl border p-4 items-center">
+            <div aria-label="top" class="flex gap-x-2">
+              <b class="text-xl">46</b>
+              <div aria-label="tag"
+                class="flex items-center rounded-lg border px-2 text-(--color-success) bg-(--color-success)/10">
+                <ng-icon name="lucideArrowUp" size="14" />
+                <b class="text-sm">12%</b>
+              </div>
+            </div>
+            <div aria-label="bottom">
+              <p>En cours</p>
+            </div>
+          </li>
+          <li aria-label="bloc" class="w-full max-w-82 rounded-xl border p-4 items-center">
+            <div aria-label="top" class="flex gap-x-2">
+              <b class="text-xl">46</b>
+              <div aria-label="tag"
+                class="flex items-center rounded-lg border px-2 text-(--color-success) bg-(--color-success)/10">
+                <ng-icon name="lucideArrowUp" size="14" />
+                <b class="text-sm">12%</b>
+              </div>
+            </div>
+            <div aria-label="bottom">
+              <p>Résolus</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div aria-label="activity" class="space-y-4">
+        <div class="flex items-center gap-x-4">
+          <div aria-label="icon" class="inline-flex border p-2 rounded-full">
+            <ng-icon name="lucideTicket" />
+          </div>
+          <div aria-label="activity-header">
+            <b>Tickets récents</b>
+            <p class="text-sm">La liste des tickets récemments ajoutées.</p>
+          </div>
+        </div>
+        <ul class="space-y-4 max-w-125">
+          <li class="flex items-center px-4 py-2 gap-x-4 border rounded-xl cursor-pointer">
+            <div aria-label="icon" class="flex items-center">
+              <ng-icon name="lucideTicket" />
+            </div>
+            <div aria-label="ticket-id">
+              <b>TK-1024</b>
+            </div>
+            <div aria-label="ticket-title">
+              <p>Problème de connexion</p>
+            </div>
+            <div>
+              <span class="flex items-center rounded-xl px-2 gap-x-1 bg-(--color-success)/20">
+                <ng-icon name="lucideTicket" />
+                <p class="text-sm font-semibold">Etat</p>
+              </span>
+            </div>
+          </li>
+          <li class="flex items-center px-4 py-2 gap-x-4 border rounded-xl cursor-pointer">
+            <div aria-label="icon" class="flex items-center">
+              <ng-icon name="lucideTicket" />
+            </div>
+            <div aria-label="ticket-id">
+              <b>TK-1024</b>
+            </div>
+            <div aria-label="ticket-title">
+              <p>Problème de connexion</p>
+            </div>
+            <div>
+              <span class="flex items-center rounded-xl px-2 gap-x-1 bg-(--color-success)/20">
+                <ng-icon name="lucideTicket" />
+                <p class="text-sm font-semibold">Etat</p>
+              </span>
+            </div>
+          </li>
+          <li class="flex items-center px-4 py-2 gap-x-4 border rounded-xl cursor-pointer">
+            <div aria-label="icon" class="flex items-center">
+              <ng-icon name="lucideTicket" />
+            </div>
+            <div aria-label="ticket-id">
+              <b>TK-1024</b>
+            </div>
+            <div aria-label="ticket-title">
+              <p>Problème de connexion</p>
+            </div>
+            <div>
+              <span class="flex items-center rounded-xl px-2 gap-x-1 bg-(--color-success)/20">
+                <ng-icon name="lucideTicket" />
+                <p class="text-sm font-semibold">Etat</p>
+              </span>
+            </div>
+          </li>
+          <li class="flex items-center px-4 py-2 gap-x-4 border rounded-xl cursor-pointer">
+            <div aria-label="icon" class="flex items-center">
+              <ng-icon name="lucideTicket" />
+            </div>
+            <div aria-label="ticket-id">
+              <b>TK-1024</b>
+            </div>
+            <div aria-label="ticket-title">
+              <p>Problème de connexion</p>
+            </div>
+            <div>
+              <span class="flex items-center rounded-xl px-2 gap-x-1 bg-(--color-success)/20">
+                <ng-icon name="lucideTicket" />
+                <p class="text-sm font-semibold">Etat</p>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </section>
+</main>

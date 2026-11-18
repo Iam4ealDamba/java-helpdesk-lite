@@ -1,0 +1,34 @@
+<aside class="pl-4 py-4">
+  <section
+    class="flex items-center gap-x-2 px-4 py-2 border-b-2 border-black/15 cursor-pointer bg-(--color-primary) hover:opacity-90 transition-all">
+    <div aria-label="profile-icon">
+      <img src="" alt="" class="w-8 h-8 rounded-full bg-black">
+    </div>
+    <div aria-label="profile-details" class="w-full flex items-center justify-between">
+      <div aria-label="profile-details-left">
+        <b class="text-sm">John Doe</b>
+        <p class="text-xs">john.doe@test.email</p>
+      </div>
+      <div aria-label="profile-details-right" class="flex self-center">
+        <ng-icon name="lucideChevronDownCircle" size="20" />
+      </div>
+    </div>
+  </section>
+  <section class="flex items-center gap-x-2 px-4 py-2 border-b-2 border-black/15">
+    <label for="global-search" class="cursor-pointer">
+      <ng-icon name="remixSearchLine" strokeWidth="5px" />
+    </label>
+    <input type="search" id="global-search" [(ngModel)]="globalSearchControl" placeholder="Recherche..."
+      class="w-full outline-0">
+  </section>
+  <section class="p-4">
+    <ul class="space-y-2">
+      @for (item of navList; track $index) {
+      <li class="flex items-center rounded-lg gap-x-2 px-2 py-1 cursor-pointer hover:font-semibold {{ it }}">
+        <ng-icon name="lucideLayoutDashboard" />
+        <p>{{item.title}}</p>
+      </li>
+      }
+    </ul>
+  </section>
+</aside>

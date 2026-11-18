@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+:host {
+  display: flex;
+  width: 100%;
+}

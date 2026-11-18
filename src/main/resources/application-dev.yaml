@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: java-helpdesk-lite
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: postgresql
+  datasource:
+    url: jdbc:postgresql://localhost:5432/helpdesklite
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+springdoc:
+  swagger-ui:
+    path: /swagger.html
+  api-docs:
+    path: /api-docs
+
+jwt:
+  secret: XvN9gVC3rZqWPE7D17Wmtao0/xze6A/8Z0HgqKTUn9g=
+  expiration: 3600000

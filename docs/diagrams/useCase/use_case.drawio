@@ -1,0 +1,89 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="-_cqdloeexCEwqWOMPyZ">
+    <mxGraphModel dx="2005" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Employé" vertex="1">
+          <mxGeometry height="60" width="30" x="-774" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillStyle=auto;gradientColor=none;strokeWidth=3;" value="HelpDesk Lite service" vertex="1">
+          <mxGeometry height="410" width="630" x="-682" y="230" as="geometry">
+            <mxRectangle height="30" width="120" x="-320" y="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-21" parent="BgwuFpz6Rejs_CgweeYP-15" style="whiteSpace=wrap;html=1;fontSize=10;" value="Consulter la liste des tickets" vertex="1">
+          <mxGeometry height="30" width="120" x="80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-41" parent="BgwuFpz6Rejs_CgweeYP-15" style="whiteSpace=wrap;html=1;fontSize=10;" value="Créer un ticket" vertex="1">
+          <mxGeometry height="30" width="120" x="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-45" edge="1" parent="BgwuFpz6Rejs_CgweeYP-15" source="BgwuFpz6Rejs_CgweeYP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;dashed=1;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" x="0.4261" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="165" />
+              <mxPoint x="220" y="140" />
+              <mxPoint x="170" y="140" />
+            </Array>
+            <mxPoint x="170" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-42" parent="BgwuFpz6Rejs_CgweeYP-15" style="whiteSpace=wrap;html=1;fontSize=10;" value="Consulter un ticket" vertex="1">
+          <mxGeometry height="30" width="120" x="260" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-43" edge="1" parent="BgwuFpz6Rejs_CgweeYP-15" source="BgwuFpz6Rejs_CgweeYP-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;dashed=1;endArrow=openThin;endFill=0;" target="BgwuFpz6Rejs_CgweeYP-21">
+          <mxGeometry relative="1" x="0.131" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-44" connectable="0" parent="BgwuFpz6Rejs_CgweeYP-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontColor,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;fontSize=10;" value="&amp;lt;&amp;lt;est inclus&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1022" y="1" as="geometry">
+            <mxPoint x="-25" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-46" parent="BgwuFpz6Rejs_CgweeYP-15" style="whiteSpace=wrap;html=1;fontSize=10;" value="Ajouter un commentaire" vertex="1">
+          <mxGeometry height="30" width="120" x="480" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-47" edge="1" parent="BgwuFpz6Rejs_CgweeYP-15" source="BgwuFpz6Rejs_CgweeYP-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.023;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;dashed=1;" target="BgwuFpz6Rejs_CgweeYP-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-48" connectable="0" parent="BgwuFpz6Rejs_CgweeYP-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;est inclus&amp;gt;&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1308" y="2" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-52" edge="1" parent="BgwuFpz6Rejs_CgweeYP-15" source="BgwuFpz6Rejs_CgweeYP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40.00000000000023" y="249.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-51" parent="BgwuFpz6Rejs_CgweeYP-15" style="whiteSpace=wrap;html=1;fontSize=10;" value="Modifier le status d&#39;un ticket" vertex="1">
+          <mxGeometry height="30" width="120" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-54" edge="1" parent="BgwuFpz6Rejs_CgweeYP-15" source="BgwuFpz6Rejs_CgweeYP-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-53" parent="BgwuFpz6Rejs_CgweeYP-15" style="whiteSpace=wrap;html=1;fontSize=10;" value="Modifier la priorité d&#39;un ticket" vertex="1">
+          <mxGeometry height="30" width="120" x="80" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-49" edge="1" parent="1" source="BgwuFpz6Rejs_CgweeYP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="BgwuFpz6Rejs_CgweeYP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-22" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Technicien Support" vertex="1">
+          <mxGeometry height="60" width="30" x="-774" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-25" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=10;fillColor=#ffe6cc;strokeColor=#d79b00;position2=0.48;" value="Tout les acteurs ci-dessous ont pour obligations d&#39;être connécter au service afin d&#39;accéder aux différentes actions de celui-ci." vertex="1">
+          <mxGeometry height="70" width="590" x="-677" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BgwuFpz6Rejs_CgweeYP-40" edge="1" parent="1" source="BgwuFpz6Rejs_CgweeYP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="BgwuFpz6Rejs_CgweeYP-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-732" y="365" />
+              <mxPoint x="-732" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
